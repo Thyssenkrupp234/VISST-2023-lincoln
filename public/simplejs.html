@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    to be developed
+    <input type="text" value="hi" id="myText">
+    <div id="myDiv">...</div>
+    <input type="button" value="in-out" onclick="() => {
+        myValue = document.getElementById('myText').value
+        document.getElementById('myDiv').innerText = myValue
+    }">
 </body>
 </html>
